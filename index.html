@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Tjark Behrens</title>
+  <meta name="author" content="Tjark Behrens">
+  <meta name="description" content="Tjark Behrens is a PhD fellow in the Machine Learning Section at the University of Copenhagen, working on computer vision for good as part of the Global Wetland Center and the Pioneer Centre for AI.">
+  <link rel="canonical" href="https://tjarkbehrens.github.io/">
+
+  <!-- How the link looks when shared on Slack, LinkedIn, X, etc. -->
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Tjark Behrens">
+  <meta property="og:description" content="PhD fellow at the University of Copenhagen, working on computer vision for good at the Global Wetland Center and the Pioneer Centre for AI.">
+  <meta property="og:url" content="https://tjarkbehrens.github.io/">
+  <meta property="og:image" content="https://tjarkbehrens.github.io/assets/tjark-behrens.jpg">
+  <meta name="twitter:card" content="summary">
+
+  <link rel="icon" href="favicon.ico" sizes="32x32">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="preload" href="assets/fonts/schibsted-grotesk-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Helps search engines connect your name to your profiles. -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Tjark Behrens",
+    "url": "https://tjarkbehrens.github.io/",
+    "image": "https://tjarkbehrens.github.io/assets/tjark-behrens.jpg",
+    "jobTitle": "PhD Fellow",
+    "worksFor": { "@type": "CollegeOrUniversity", "name": "University of Copenhagen", "url": "https://www.ku.dk/english/" },
+    "alumniOf": [
+      { "@type": "CollegeOrUniversity", "name": "ETH Zurich" },
+      { "@type": "CollegeOrUniversity", "name": "University of Freiburg" }
+    ],
+    "sameAs": [
+      "https://scholar.google.com/citations?user=5tfQSGkAAAAJ",
+      "https://github.com/behretj",
+      "https://www.linkedin.com/in/tjark-behrens",
+      "https://orcid.org/0009-0006-6423-1678"
+    ]
+  }
+  </script>
+</head>
+<body>
+<div class="wrap">
+<main class="page">
+
+  <header class="hero">
+    <div class="hero-text">
+      <h1>Tjark Behrens</h1>
+      <p class="role">PhD Fellow, University of Copenhagen</p>
+
+      <div class="bio">
+        <p>I’m a PhD fellow in the <a href="https://di.ku.dk/english/research/machine-learning">Machine Learning Section</a> at the <a href="https://www.ku.dk/english/">University of Copenhagen</a>, supervised by Prof. <a href="https://christian-igel.github.io">Christian Igel</a> and Assistant Prof. <a href="https://langnico.github.io/">Nico Lang</a>. My research focuses on computer vision for good, as part of the <a href="https://globalwetlandcenter.ku.dk/">Global Wetland Center</a> and the <a href="https://www.aicentre.dk/">Pioneer Centre for AI</a>.</p>
+      </div>
+
+      <p class="links">
+        <a href="assets/cv.pdf">CV</a>
+        <a href="https://scholar.google.com/citations?user=5tfQSGkAAAAJ">Google Scholar</a>
+        <a href="https://github.com/behretj">GitHub</a>
+        <a href="https://www.linkedin.com/in/tjark-behrens">LinkedIn</a>
+        <a href="https://orcid.org/0009-0006-6423-1678">ORCID</a>
+      </p>
+
+      <p class="students"><strong>Students:</strong> if you’re a BSc or MSc student with an idea for a thesis or project in machine learning for earth observation (or anything else on this page), I’d be happy to hear from you. <a class="js-mail" data-user="tjark.behrens" data-domain="di.ku.dk" href="#">Send me an email</a> with a few lines about yourself and what you have in mind.</p>
+    </div>
+
+    <div class="hero-map">
+      <div class="topo-slot" id="topo"></div>
+      <img class="portrait" src="assets/tjark-behrens.jpg" width="600" height="600" alt="Portrait of Tjark Behrens">
+      <p class="hero-mail"><a class="js-mail" data-user="tjark.behrens" data-domain="di.ku.dk" href="#">tjark.behrens (at) di.ku.dk</a></p>
+    </div>
+  </header>
+
+  <section aria-labelledby="exp-h">
+    <div class="section-head">
+      <h2 id="exp-h">Experience</h2>
+      <button class="disclose" id="exp-toggle" type="button" aria-expanded="false" aria-controls="exp-list">
+        <span class="disclose-label">Show details</span>
+        <svg class="chev" viewBox="0 0 12 12" aria-hidden="true"><path d="M2.5 4.5 6 8l3.5-3.5"/></svg>
+      </button>
+    </div>
+    <ol class="exp" id="exp-list"></ol>
+  </section>
+
+  <section aria-labelledby="news-h">
+    <h2 id="news-h">News</h2>
+    <ul class="news" id="news-list"></ul>
+    <button class="more" id="news-more" type="button" hidden></button>
+  </section>
+
+  <section aria-labelledby="pubs-h">
+    <h2 id="pubs-h">Publications</h2>
+    <div class="pubs" id="pub-list">
+      <noscript><p>Turn on JavaScript to see the list here, or find my papers on <a href="https://scholar.google.com/citations?user=5tfQSGkAAAAJ">Google Scholar</a>.</p></noscript>
+    </div>
+  </section>
+
+  <section aria-labelledby="collab-h">
+    <h2 id="collab-h">Collaborators</h2>
+    <p class="collab" id="collab-list"></p>
+  </section>
+
+  <footer>
+    <p>Layout inspired by <a href="https://jonbarron.info/">Jon Barron’s website</a>.</p>
+  </footer>
+
+</main>
+</div>
+<script src="data.js"></script>
+<script src="main.js"></script>
+<script src="assets/topo.js"></script>
+</body>
+</html>
